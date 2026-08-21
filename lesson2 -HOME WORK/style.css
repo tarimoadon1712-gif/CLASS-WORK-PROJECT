@@ -1,0 +1,37 @@
+ body {
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif ;
+    background-color: rgb(0, 253, 21);
+ }
+nav {
+    background-color: rgb(255, 0, 0);
+    padding: 20px;
+}
+ .logo{
+    color:gold;
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 40px;
+ }
+  a {
+  color: rgb(15, 210, 216);
+  margin-right: 25px;
+  text-decoration: none;
+ }
+ .hero {
+    text-align: center;
+    margin-top: 120px;
+ }
+ h1 {
+    color:aqua
+ }
+ button {
+    background-color: rgb(255, 196, 0);
+    color: rgb(255, 0, 238)
+    ;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    cursor:pointer;
+ }
+
