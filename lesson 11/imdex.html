@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magig word lab</title>
+    <link rel="stylesheet"
+    https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css
+</head>
+<body>
+    <div class="container py-4">
+        <h1 class="mb-1">My magic world lab</h1>
+        <p class="text-muted mb-4">Discover types, switch them, find and swap words, and catch sneaky errors!</p>
+
+        <div class="card mb-4">
+            <div class="card-body">
+                <h3 class="card-title">What Type Is It?</h3>
+                <button class="btn btn-warning"  onclick="checkTypes()">Reveal the types</button>
+                <div id="typeResult" class="box p-3 mt-3 rounded">Press the button to reveal the secret types!</div>         
+            </div>
+        </div>
+
+        <script>
+            var sen = "The dragon flew over the big castle.";
+            function checkTypes() {
+                document.getElementById("typeResult").innerText =
+                "Score 42      -type: " + typeof 42 + "\n" +
+                "Name 'Alex'      -type: " + typeof "Alex" + "\n" +
+                "Game over true       -type: " + typeof true; 
+            }
+        </script>
+    </div>
+</body>
+</html>
